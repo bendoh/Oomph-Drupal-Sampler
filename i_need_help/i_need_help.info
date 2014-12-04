@@ -1,0 +1,6 @@
+name = I need help!
+description = I really need some help with this...
+core = 7.x
+version = 7.x-alpha1
+package = Oomph Drupal Sampler
+files[] = i_need_help.module

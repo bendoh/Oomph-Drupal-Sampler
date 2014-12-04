@@ -1,0 +1,8 @@
+<?php
+/**
+ * Implements hook_init
+ * Append script
+ */
+function i_need_help_help() {
+	drupal_set_message("it's a too much!");
+}
