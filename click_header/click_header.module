@@ -1,0 +1,9 @@
+<?php
+/**
+ * Implements hook_init
+ * Append script
+ */
+function click_header_init() {
+	$base = drupal_get_path('module', 'click_header');
+	drupal_add_js($base . '/click-header.js', array('weight' => 100));
+}

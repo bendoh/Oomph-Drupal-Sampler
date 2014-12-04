@@ -1,0 +1,6 @@
+name = Click the header!
+description = Pop up an alert when you click the header
+core = 7.x
+version = 7.x-alpha1
+package = Oomph Drupal Sampler
+files[] = click_header.module
