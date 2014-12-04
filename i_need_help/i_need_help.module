@@ -1,8 +1,15 @@
 <?php
 /**
- * Implements hook_init
- * Append script
+ * Implements hook_help();
+ *
+ * Set a message.
+ *
+ * TODO: This message should only appear once per session!
  */
 function i_need_help_help() {
-	drupal_set_message("it's a too much!");
+	if(!isset($_SESSION['message_seen'])) {
+		drupal_set_message("it's a too much!");
+	}
+
+	$_SESSION['message-seen'] = 1;
 }
